@@ -1,0 +1,19 @@
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1280px;
+
+// 1 PRIMARY COLORS all these colors have to be changed
+$Color-Black: #13182c; // global text
+$Color-Indigo: #2e66e5; // interacting elements
+$Color-White: #ffffff; // global
+
+// 2 SECONDARY COLORS
+$Color-Slate: #5c667e; // table and placeholder text
+$Color-Cloud: #bdc5d5; // outlines , dividers, borders , table sorting icon
+
+// 3 BACKGROUND COLORS
+$Color-Graphite: #232940; // top navigation headerbackground
+$Color-Light-Grey: #f7f8f9; // page background , table column header background , CTA
+
+// 4 SUPPORTING COLORS
+$Color-Green: #158463; // in stock label
+$Color-Red: #c94515; // out of stock label , error states / delete icon
