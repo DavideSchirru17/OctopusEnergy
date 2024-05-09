@@ -68,4 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # OctopusEnergy
+
+The web application developed by Octopus Energy is a collaborative effort involving software engineers, data scientists, and UI designers working together as a team.
