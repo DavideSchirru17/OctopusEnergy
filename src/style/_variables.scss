@@ -2,18 +2,19 @@ $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1280px;
 
 // 1 PRIMARY COLORS all these colors have to be changed
-$Color-Black: #13182c; // global text
-$Color-Indigo: #2e66e5; // interacting elements
-$Color-White: #ffffff; // global
+$color-Black: #13182c; // global text
+$color-Purple: #2d1a85;
+$color-White: #ffffff; // global
+$color-Orchid: #5740ff; // hover states , active states
 
-// 2 SECONDARY COLORS
-$Color-Slate: #5c667e; // table and placeholder text
-$Color-Cloud: #bdc5d5; // outlines , dividers, borders , table sorting icon
+// 2 SECONDARY colorS
+$color-Slate: #5c667e; // table and placeholder text
+$color-Cloud: #bdc5d5; // outlines , dividers, borders , table sorting icon
 
-// 3 BACKGROUND COLORS
-$Color-Graphite: #232940; // top navigation headerbackground
-$Color-Light-Grey: #f7f8f9; // page background , table column header background , CTA
+// 3 BACKGROUND colorS
+$color-Graphite: #232940; // top navigation headerbackground
+$color-Light-Grey: #f7f8f9; // page background , table column header background , CTA
 
-// 4 SUPPORTING COLORS
-$Color-Green: #158463; // in stock label
-$Color-Red: #c94515; // out of stock label , error states / delete icon
+// 4 SUPPORTING colorS
+$color-Green: #158463; // in stock label
+$color-Red: #c94515; // out of stock label , error states / delete icon
