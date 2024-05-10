@@ -1,9 +1,6 @@
-import "./Header.scss";
 import { useState } from "react";
-// import { Link } from "react-router-dom";
-import logo from "../../assets/icons/icon-octopus-logo.png";
 
-function Header() {
+export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toogleDropdown = () => {
@@ -15,9 +12,7 @@ function Header() {
       <header className="header">
         <section className="header__container">
           <div className="header__logo-container">
-            {/* <Link to=""> */}
-            <img src={logo} className="header__logo" alt="logo octopus" />
-            {/* </Link> */}
+            <img src="../" className="header__logo" alt="logo octopus" />
           </div>
           <div className="header__live-container">
             <button className="header__button header__button--active">
@@ -28,7 +23,7 @@ function Header() {
               <div className="header__time-button">Week</div>
               <div className="header__time-button">Month</div>
               <div className="header__time-button">Year</div>
-              <img src="" />
+              <img />
             </div>
           </div>
 
@@ -49,5 +44,3 @@ function Header() {
     </>
   );
 }
-
-export default Header;
