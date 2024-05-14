@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./PageRoute/HomePage/HomePage";
-
+import Leaderboard from "./PageRoute/LeaderBoard/LeaderBoard";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/leaderboard" element={<Leaderboard />} />
         </Routes>
         {/* <Header /> */}
         {/* <Footer /> */}
