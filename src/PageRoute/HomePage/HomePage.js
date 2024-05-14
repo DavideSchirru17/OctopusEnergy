@@ -22,10 +22,12 @@ function HomePage() {
                 <div className='container__usage__title'>Live Use</div>
                 <div className='container__usage__number'>524w</div>
             </div>
+            <Link to="/leaderboard">
             <div className='container__leaderboard'>
                 <div className='container__leaderboard__title'>Leaderboard Progression</div>
                 <div className='container__leaderboard__number'>↑ Top 15%</div>
             </div>
+            </Link>
             <div className='container__leaderboard'>
                 <div className='container__leaderboard__title'>Top Rewards</div>
                 <div className='container__leaderboard__number'>1. 5% Discount on Next Bill</div>
@@ -63,10 +65,12 @@ function HomePage() {
           <img src={bills} className="footer__logo footer__logo--lightning" />
           <p className="footer__text">Bills</p>
         </div>
+        <Link to="/leaderboard">
         <div className="footer__icon">
           <img src={custom} className="footer__logo" />
           <p className="footer__text">Leaderboard</p>
         </div>
+        </Link>
       </div>
     </footer>
         </section>

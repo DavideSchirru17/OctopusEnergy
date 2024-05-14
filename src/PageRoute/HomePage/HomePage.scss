@@ -3,15 +3,21 @@
 .header {
     height: 80px;
     display: flex;
-    background-color: #26066A;
+    background-color:#26066A;
+    width: 100%;
 
     &__container {
         display: flex;
         justify-content: flex-start;
+        background-color: #26066A;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     &__logo-container {
         align-items: center;
+        
     }
 
     &__logo {
@@ -55,6 +61,7 @@
         margin: 10px 0;
         background-color: $color-Darkpurple;
         border-radius: 10px;
+        color: white;
         
         &__title {
             padding: 10px 0;
