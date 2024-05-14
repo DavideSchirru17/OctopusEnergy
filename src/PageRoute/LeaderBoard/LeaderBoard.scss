@@ -94,6 +94,21 @@
         }
     }
 
+    &__rewards {
+        background-color: $color-Darkpurple;
+        width: 80vw;
+        border-radius: 10px;
+        margin: 10px 0 30px;
+
+        &__title {
+            padding: 20px 0;
+        }
+
+        &__item {
+            font-weight: 800;
+            padding-bottom: 20px;
+         }
+    }
 }
 
 .footer {

@@ -35,6 +35,11 @@ function Leaderboard() {
                 <div className='main__container__comparison'>Your position last month was:</div>
                 <div className='main__container__number'>Top 19%</div>
             </div>
+            <div className='main__rewards'>
+                <div className='main__rewards__title'>This months rewards are:</div>
+                <div className='main__rewards__item'>Top 1% = 5% Discount on Next Bill</div>
+                <div className='main__rewards__item'>Top 5% = £20 M&S Gift Voucher</div>
+            </div>
 
         </div>
 
